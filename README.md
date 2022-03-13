@@ -55,5 +55,7 @@ void numero() {
     printf("Este número é negativo.");
   } else {
     printf("Este número é positivo.");
+    
   }
+  
 }
