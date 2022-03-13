@@ -1,4 +1,5 @@
 # questoes-da-lista-
+questao 2:
 #include <stdio.h>
 
 void conversao(int h, int m, int s);
@@ -30,3 +31,27 @@ void conversao(int h, int m, int s) {
   printf("\nO valor convertido corresponde a: %d segundos.", c);
 }
 
+questao 5:
+#include <stdio.h>
+#include <locale.h>
+
+void numero();
+
+int main() {
+  setlocale(LC_ALL, "Portuguese_Brazil");
+  
+  numero();
+}
+
+void numero() {
+  int valor;
+  
+  printf("Digite um valor: ");
+  scanf("%d", &valor);
+  
+  if(valor < 0) {
+    printf("Este número é negativo.");
+  } else {
+    printf("Este número é positivo.");
+  }
+}
