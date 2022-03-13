@@ -1,5 +1,6 @@
 # questoes-da-lista-
 questao 2:
+
 #include <stdio.h>
 
 void conversao(int h, int m, int s);
