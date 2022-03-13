@@ -36,6 +36,7 @@ void conversao(int h, int m, int s) {
 questao 5:
 
 #include <stdio.h>
+
 #include <locale.h>
 
 void numero();
@@ -64,7 +65,9 @@ void numero() {
 questao 9.
 
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <locale.h>
 
 int divisores(int num);
