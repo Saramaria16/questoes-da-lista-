@@ -60,3 +60,35 @@ void numero() {
   }
   
 }
+
+questao 9.
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int divisores(int num);
+
+int main() {
+  setlocale(LC_ALL, "Portuguese_Brazil");
+  
+  int N, R;
+  
+  printf("Digite um número inteiro e positivo: ");
+  scanf("%d", &N);
+  
+  R = divisores(N);
+  
+  printf("A soma dos divisores do número é: %d", R);
+}
+
+int divisores(int num) {
+  int div, soma = 0; 
+  
+  for(div = 1; div <= num; div++) {
+    if(num % div == 0) {
+      soma = soma + div; 
+    }
+  }
+  
+  return soma;
+}
