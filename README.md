@@ -29,9 +29,11 @@ void conversao(int h, int m, int s) {
   c = (h * 60 * 60) + (m * 60) + (s);
   
   printf("\nO valor convertido corresponde a: %d segundos.", c);
+  
 }
 
 questao 5:
+
 #include <stdio.h>
 #include <locale.h>
 
